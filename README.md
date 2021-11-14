@@ -1,0 +1,2 @@
+# Google_Translate_Excel
+自用谷歌翻译Excel表格python脚本
