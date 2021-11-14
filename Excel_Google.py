@@ -46,7 +46,7 @@ if __name__ == '__main__':
         for opt, arg in opts:
             if opt == '-h':
                 print("使用格式为：\npython Excel_Google.py -f <Execl文件位置> -s <表名>\n"
-                    + "PS:如果第一次使用请安装以下包：openpyxl、pygoogletranslation。\n"
+                    + "PS:如果第一次使用请安装以下包：openpyxl、pygoogletranslation和tqdm。\n"
                     + "   并修改pygoogletranslation源码中的utils.py的第8行为：\n"
                     + "       from pygoogletranslation.models import TranslatedPart\n"
                     + "#开始运行代码时不可打开Excel文件#")
@@ -66,7 +66,7 @@ if __name__ == '__main__':
         print("Enjoy it!")
     else:
         print("错误：参数为空，使用python Excel_Google.py -h获取详情\n"
-            + "PS:如果第一次使用请安装以下包：openpyxl、pygoogletranslation。\n"
+            + "PS:如果第一次使用请安装以下包：openpyxl、pygoogletranslation和tqdm。\n"
             + "   并修改pygoogletranslation源码中的utils.py的第8行为：\n"
             + "       from pygoogletranslation.models import TranslatedPart\n"
             + "#开始运行代码时不可打开Excel文件#")
