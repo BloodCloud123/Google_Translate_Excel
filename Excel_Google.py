@@ -63,7 +63,7 @@ if __name__ == '__main__':
         except:
             print("警告：参数不完整或发生错误，使用python Excel_Google.py -h获取详情")
             sys.exit()
-        print("Enjoy it!")
+        # print("Enjoy it!")
     else:
         print("错误：参数为空，使用python Excel_Google.py -h获取详情\n"
             + "PS:如果第一次使用请安装以下包：openpyxl、pygoogletranslation和tqdm。\n"
